@@ -1,5 +1,7 @@
 import cv2, os, time, shutil
 
+from termcolor import colored
+
 from console_progressbar import ProgressBar
 
 from openpyxl import load_workbook
@@ -70,7 +72,7 @@ if wantit == "y":
 
         os.makedirs(data)
 
-        print("creating folder "  + data + "...")
+        print(colored("creating folder "  + data + "...", "red"))
 
         print("")
 
@@ -116,7 +118,7 @@ if wantit == "y":
 
     print("")
 
-    print("creating edit.tex...")
+    print(colored("creating edit.tex...", "red"))
 
     print("")
 
