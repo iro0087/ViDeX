@@ -5,4 +5,4 @@ You can also choose a new framerate for the video to have a faster "pdflatex -ha
 
 Maybe that your compiled pdf will show about a quarter of each frame in the background, so make sure to compile twice. 
 
-![videx_005](https://user-images.githubusercontent.com/114911243/218343517-40716954-0b59-48e5-8c68-48787eddb00a.jpg)
+![videx_008](https://user-images.githubusercontent.com/114911243/218344211-24930beb-6f4d-45f8-8e66-0ad58dd9ff88.jpg)
