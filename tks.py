@@ -38,11 +38,19 @@ fps = str(fps)
 
 fps2 = str(fps2)
 
+print("")
+
 print("1s = " + fps + "frames = " + fps2 + "pages |  Total pages number = " + str(tot))
+
+print("")
 
 print("The video is at " + fps2 + "fps")  
 
+print("")
+
 lowr = str(input("Do you want to lower the number of pages wich will lower the fps video? (y/n)"))
+
+print("")
 
 passd_frame = 1
 
@@ -50,7 +58,11 @@ if lowr == "y":
 
     nov = int(input("At how many fps?" + "(modulo " + fps2 + ")"))
 
+print("")
+
 wantit = str(input("Proceed? (y/n)"))
+
+print("")
 
 if wantit == "y":
 
@@ -59,6 +71,8 @@ if wantit == "y":
         os.makedirs(data)
 
         print("creating folder "  + data + "...")
+
+        print("")
 
     while (True):
 
@@ -98,7 +112,13 @@ if wantit == "y":
 
     passd_frame = 0
 
+    print("")
+
+    print("")
+
     print("creating edit.tex...")
+
+    print("")
 
     command = "touch " + data + "/edit.tex"
 
@@ -150,9 +170,11 @@ if wantit == "y":
 
     os.system(command)
 
-    print("done :)")
+    print("")
 
+    print("done")
 
+    print("")
 
 
 
