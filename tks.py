@@ -72,7 +72,7 @@ if wantit == "y":
 
         os.makedirs(data)
 
-        print(colored("creating folder "  + data + "...", "red"))
+        print("creating folder "  + colored(data + "...", "red"))
 
         print("")
 
@@ -118,7 +118,7 @@ if wantit == "y":
 
     print("")
 
-    print(colored("creating edit.tex...", "red"))
+    print("creating", colored("edit.tex...", "red"))
 
     print("")
 
