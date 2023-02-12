@@ -146,7 +146,7 @@ if wantit == "y":
             
             filedata = file.read()
 
-        filedata = filedata.replace("salope.jpg", l_frame[passd_frame])
+        filedata = filedata.replace("img.jpg", l_frame[passd_frame])
 
         with open(filename_, "w") as file:
 
@@ -162,7 +162,7 @@ if wantit == "y":
             
             filedata = file.read()
 
-    filedata = filedata.replace("salope.jpg", l_frame[passd_frame])
+    filedata = filedata.replace("img.jpg", l_frame[passd_frame])
 
     with open(filename_, "w") as file:
 
