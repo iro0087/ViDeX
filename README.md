@@ -24,5 +24,5 @@ Maybe that your compiled pdf will show about a quarter of each frame in the back
 
 "tks2.py" allow to convert the pdf output to a video.
 
-![videx_009](https://user-images.githubusercontent.com/114911243/218483438-9899b2e8-2a03-4f67-965d-ec1329c2b03e.jpg)
+![videx_010](https://user-images.githubusercontent.com/114911243/218483713-727e48bc-1cdf-45f6-9635-95dd32196f09.jpg)
 
