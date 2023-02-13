@@ -2,6 +2,18 @@
 
 Works ewclusively on GNU/Linux.
 
+Requirement: python librairies
+
+                      - cv2, os, shutil, termcolor, console_progressbar, openpyxl, PIL, fitz, io
+                      
+             packages
+             
+                     - texlive (LaTeX)
+                     
+                     -ffmpeg
+                     
+                     
+
 "tks.py" converts a video to pdf and create a tex file with the frames of the video in the background.
 
 You can also choose a new framerate for the video to have a faster "pdflatex -halt-on-error edit.tex" compilation.
