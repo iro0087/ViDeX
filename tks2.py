@@ -68,7 +68,13 @@ with open("fileorder.txt", "r") as file:
 
             file.write("file '" + line.strip() + "'\n")
 
-command = "ffmpeg -f concat -i fileorder2.txt -crf 20 -vf fps=25,format=yuv420p out.mp4"
+w = load_workbook("a.xlsx")
+
+sheet = w.active
+
+fps = str(sheet.cell(row=1, column=4).value)
+
+command = "ffmpeg -f concat -i fileorder2.txt -crf 20 -vf fps=" + fps +",format=yuv420p out.mp4"
 
 os.system(command)
 

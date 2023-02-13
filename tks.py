@@ -90,7 +90,7 @@ if wantit == "y":
 
             if int(fps2) / nov - passd_frame == 0:
 
-                name = "./" + data + "/frame" + str(currentframe) + ".jpg"
+                name = "./" + data + "/frame" + str(currentframe) + ".jpg" 
 
                 l_frame.append("frame" + str(currentframe) + ".jpg")
 
@@ -109,6 +109,10 @@ if wantit == "y":
     cam.release()
 
     cv2.destroyAllWindows()
+
+    sheet.cell(row=1, column=3).value = data
+
+    sheet.cell(row=1, column=4).value = nov
 
     w.save("a.xlsx")
 
@@ -153,6 +157,8 @@ if wantit == "y":
             file.write(filedata)
 
         passd_frame += 1
+
+    passd_frame = 0
 
     command = "cat mid2.tex >> " + data + "/edit.tex"
 
