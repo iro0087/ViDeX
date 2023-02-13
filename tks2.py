@@ -72,7 +72,7 @@ w = load_workbook("a.xlsx")
 
 sheet = w.active
 
-fps = str(sheet.cell(row=1, column=4).value)
+fps = "30" #can be modified
 
 command = "ffmpeg -f concat -i fileorder2.txt -crf 20 -vf fps=" + fps +",format=yuv420p out.mp4"
 
