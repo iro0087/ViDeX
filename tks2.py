@@ -4,6 +4,8 @@ import os, fitz, io, sys
 
 from PIL import Image
 
+from termcolor import colored
+
 from console_progressbar import ProgressBar
 
 filename_ = str(input("What is the folder containing the pdf to convert? (output=out.mp4)"))
@@ -54,6 +56,10 @@ os.system(command)
 command = "rm *.jpeg"
 
 os.system(command)
+
+print("")
+
+print("The video is", colored("out.mp4", "red"))
 
 
 
