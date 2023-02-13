@@ -58,6 +58,8 @@ os.system(command)
 
 command = "> fileorder2.txt"
 
+os.system(command)
+
 with open("fileorder.txt", "r") as file:
 
     for line in file:
