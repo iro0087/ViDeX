@@ -1,4 +1,4 @@
-import cv2, os, time, shutil
+import cv2, os, shutil
 
 from termcolor import colored
 
