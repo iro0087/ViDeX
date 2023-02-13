@@ -18,7 +18,9 @@ sheet.cell(row=1, column=1).value = sheet.cell(row=1, column=1).value + 1
 
 sheet.cell(row=1, column=2).value = sheet.cell(row=1, column=2).value + 1
 
-cam = cv2.VideoCapture("tste.mp4")
+video_ = str(input("What is the name of the video?"))
+
+cam = cv2.VideoCapture(video_)
 
 data = "data" + numb
 
