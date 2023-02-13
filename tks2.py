@@ -1,6 +1,6 @@
 from openpyxl import load_workbook
 
-import os, ghostscript, fitz, io, sys
+import os, fitz, io, sys
 
 from PIL import Image
 
