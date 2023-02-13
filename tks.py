@@ -138,7 +138,7 @@ if wantit == "y":
         
         pb.print_progress_bar(passd_frame + 1)
 
-        command = "bat mid.tex >> " + data + "/edit.tex"
+        command = "cat mid.tex >> " + data + "/edit.tex"
 
         os.system(command)
 
