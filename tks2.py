@@ -8,7 +8,7 @@ from termcolor import colored
 
 from console_progressbar import ProgressBar
 
-filename_ = str(input("What is the folder containing the pdf to convert? (output=out.mp4)"))
+filename_ = str(input("What is the folder containing the pdf to convert?"))
 
 output = "/" + filename_
 
