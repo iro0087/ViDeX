@@ -1,6 +1,6 @@
 # ViDeX
 
-Works ewclusively on GNU/Linux.
+Works exclusively on GNU/Linux.
 
 Requirement: python librairies
 
